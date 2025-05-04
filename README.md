@@ -21,6 +21,8 @@ This repository provides templates and a methodology based on three core compone
 2.  **Long-Term Memory (LTM) - The Plan:** An `implementation_plan.md` file, generated upfront using `generate_plan.md`, outlines the detailed, step-by-step plan for the task. This file remains **read-only** during execution, serving as the source of truth.
 3.  **Short-Term Memory (STM) - The State:** A dynamic `Implementation_state.md` file tracks the current task, overall progress, completed steps, and any errors encountered. This file is **read before and updated after** each step by the AI, maintaining the workflow's state.
 
+For a more detailed explanation of the rationale, workflow, benefits, and considerations, please refer to the blog post: [Beyond Chat: A Structured Workflow for Predictable AI Development in Cursor](https://www.reinforcementcoding.com/blog/structured-agentic-workflow-template).
+
 ## Key Components
 
 - **`generate_plan.md`:** An XML prompt template used to guide the AI in analyzing a task and generating a detailed `implementation_plan.md`.
